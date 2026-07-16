@@ -1,0 +1,103 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="EmployerMaster.Master.cs" Inherits="CareerConnect.USER.Employer.EmployerMaster" %>
+
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Career Connect — Employer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/jpeg" href="../../assets/img/logo/logo.jpg" />
+    <link rel="shortcut icon" href="../../assets/img/logo/logo.jpg" />
+    <link rel="stylesheet" href="../../assets/css/bootstrap.min.css?v=cc11" />
+    <link rel="stylesheet" href="../../assets/css/bootstrap-overrides.css?v=cc11" />
+    <link rel="stylesheet" href="../../assets/css/owl.carousel.min.css?v=cc11" />
+    <link rel="stylesheet" href="../../assets/css/flaticon.css?v=cc11" />
+    <link rel="stylesheet" href="../../assets/css/slicknav.css?v=cc11" />
+    <link rel="stylesheet" href="../../assets/css/animate.min.css?v=cc11" />
+    <link rel="stylesheet" href="../../assets/css/fontawesome-all.min.css?v=cc11" />
+    <link rel="stylesheet" href="../../assets/css/style.css?v=cc11" />
+    <link rel="stylesheet" href="../../assets/css/site-theme.css?v=cc24" />
+    <asp:ContentPlaceHolder ID="head" runat="server"></asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <asp:Literal ID="litCcMsgState" runat="server" />
+        <header>
+            <div class="header-area header-transparrent">
+                <div class="headder-top header-sticky">
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="col-lg-3 col-md-2">
+                                <div class="logo">
+                                    <a href="default.aspx"><img src="../../assets/img/logo/logo.jpg" alt="Career Connect" style="max-height:36px;width:auto;" /></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-9 col-md-9">
+                                <div class="menu-wrapper">
+                                    <div class="main-menu">
+                                        <nav class="d-none d-lg-block">
+                                            <ul id="navigation">
+                                                <li runat="server" id="navDash"><a href="default.aspx">Dashboard</a></li>
+                                                <li runat="server" id="navMyJobs"><a href="jobs.aspx">My jobs</a></li>
+                                                <li runat="server" id="navPost"><a href="job_add.aspx">Post job</a></li>
+                                                <li runat="server" id="navApps"><a href="applications.aspx">Applications</a></li>
+                                            </ul>
+                                        </nav>
+                                    </div>
+                                    <div class="header-btn header-account-btns d-none f-right d-lg-block">
+                                        <asp:LinkButton ID="lbCompany" runat="server" CssClass="btn head-btn1" OnClick="lbCompany_Click" CausesValidation="false">Company</asp:LinkButton>
+                                        <asp:LinkButton ID="lbLoginorLogout" runat="server" CssClass="btn head-btn2" OnClick="lbLoginorLogout_Click" CausesValidation="false"></asp:LinkButton>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="mobile_menu d-block d-lg-none"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+        <footer>
+            <div class="footer-area footer-bg footer-padding">
+                <div class="container">
+                    <div class="row d-flex justify-content-between">
+                        <div class="col-xl-6 col-lg-6">
+                            <div class="single-footer-caption mb-50">
+                                <div class="footer-tittle">
+                                    <h4>Employer portal</h4>
+                                    <p>Manage your company jobs and applications on Career Connect.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom-area footer-bg">
+                <div class="container">
+                    <div class="footer-border">
+                        <div class="row d-flex justify-content-between align-items-center">
+                            <div class="col-xl-10 col-lg-10">
+                                <div class="footer-copy-right">
+                                    <p>Copyright &copy; Career Connect — Employer</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </form>
+    <script src="../../assets/js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="../../assets/js/popper.min.js"></script>
+    <script src="../../assets/js/bootstrap.min.js"></script>
+    <script src="../../assets/js/jquery.slicknav.min.js"></script>
+    <script src="../../assets/js/owl.carousel.min.js"></script>
+    <script src="../../assets/js/plugins.js"></script>
+    <script src="../../assets/js/main.js"></script>
+    <script src="../../assets/js/cc-chatbot.js?v=cc33" defer></script>
+    <script src="../../assets/js/cc-messaging.js?v=cc23" defer></script>
+</body>
+</html>
