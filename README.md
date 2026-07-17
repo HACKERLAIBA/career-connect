@@ -170,47 +170,37 @@ http://localhost/Admin
 
 ---
 
-# 📷 Screenshots
+## 📷 Project Screenshots
 
-### Home Page
+### 👤 User / Employee Module
 
-(Add Screenshot Here)
+| Home Page | Job Seeker Login |
+|-----------|------------------|
+| <img src="screenshots/Home page.jpeg" width="450"> | <img src="screenshots/Job Seeker Login.jpeg" width="450"> |
 
----
+| Registration | Browse Categories |
+|--------------|-------------------|
+| <img src="screenshots/Job Seeker Registration.jpeg" width="450"> | <img src="screenshots/Browse Job Categories.jpeg" width="450"> |
 
-### Login Page
+| Job Listing | Job Details |
+|-------------|-------------|
+| <img src="screenshots/Job Listing Page.jpeg" width="450"> | <img src="screenshots/Job Details Page.jpeg" width="450"> |
 
-(Add Screenshot Here)
-
----
-
-### Registration Page
-
-(Add Screenshot Here)
-
----
-
-### User Dashboard
-
-(Add Screenshot Here)
+| Apply Process | Employer Dashboard |
+|---------------|--------------------|
+| <img src="screenshots/Apply process Screen.jpeg" width="450"> | <img src="screenshots/Employer Dashboard.jpeg" width="450"> |
 
 ---
 
-### Admin Dashboard
+### 👨‍💼 Admin Module
 
-(Add Screenshot Here)
+| Admin Dashboard | Manage Users |
+|-----------------|--------------|
+| <img src="screenshots/Admin Dashboard.jpeg" width="450"> | <img src="screenshots/Manage Users.jpeg" width="450"> |
 
----
-
-### Job Details
-
-(Add Screenshot Here)
-
----
-
-# 🎥 Project Demo
-
-▶️ Demo Video
+| Manage Jobs | Manage Applications |
+|-------------|---------------------|
+| <img src="screenshots/Manage Jobs.jpeg" width="450"> | <img src="screenshots/Manage Applications.jpeg" width="450"> |▶️ Demo Video
 
 (Add YouTube Link Here)
 
