@@ -3,59 +3,63 @@
 ![ASP.NET](https://img.shields.io/badge/ASP.NET-4.7.2-blue)
 ![PHP](https://img.shields.io/badge/PHP-7.4+-777BB4)
 ![MySQL](https://img.shields.io/badge/MySQL-5.7+-4479A1)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-5-purple)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow)
 ![Visual Studio](https://img.shields.io/badge/Visual%20Studio-2019-purple)
 ![XAMPP](https://img.shields.io/badge/XAMPP-Required-orange)
-![License](https://img.shields.io/badge/License-Educational-green)
 
 ---
 
 # 📌 Project Overview
 
-Career Connect is a complete web-based recruitment platform developed as a Final Year Project. It connects Job Seekers with Employers through an easy-to-use portal.
+Career Connect is a web-based recruitment platform developed as a Final Year Project. It connects **Job Seekers**, **Employers**, and **Administrators** through an integrated job portal.
 
-The project consists of two integrated modules:
+The project consists of two modules:
 
-- **User Portal (ASP.NET)**
-- **Admin Dashboard (PHP)**
+- 👤 User Portal (ASP.NET Web Forms)
+- 👨‍💼 Admin Dashboard (PHP)
 
-The system allows users to register, search jobs, apply online, upload resumes, while administrators manage companies, jobs, users, categories, and applications.
+The system enables users to register, search jobs, upload resumes, and apply for jobs, while administrators manage companies, users, jobs, applications, and categories.
 
 ---
 
 # ✨ Key Features
 
-## 👨‍💼 Job Seeker
+## 👤 Job Seeker
 
 - User Registration & Login
 - Secure Authentication
 - Profile Management
 - Resume Upload
+- Browse Job Categories
 - Search Jobs
+- View Job Details
 - Apply for Jobs
 - View Applied Jobs
-- Responsive Interface
+- Responsive User Interface
 
 ---
 
 ## 🏢 Employer
 
-- Company Registration
-- Manage Company Profile
+- Employer Registration
+- Employer Dashboard
+- Company Profile Management
 - Post New Jobs
-- Edit Job Posts
+- Update Job Posts
 - Delete Job Posts
 - View Applicants
 
 ---
 
-## 👨‍💻 Admin Dashboard
+## 👨‍💼 Admin Dashboard
 
 - Dashboard Analytics
-- User Management
-- Company Management
-- Job Management
-- Category Management
-- Application Management
+- Manage Users
+- Manage Employers
+- Manage Jobs
+- Manage Categories
+- Manage Applications
 - Resume Management
 - Database Management
 
@@ -65,117 +69,49 @@ The system allows users to register, search jobs, apply online, upload resumes, 
 
 | Technology | Purpose |
 |------------|----------|
-| ASP.NET Web Forms | User Portal |
-| PHP | Admin Panel |
+| ASP.NET Web Forms | User Module |
+| PHP | Admin Module |
 | MySQL | Database |
 | HTML5 | Structure |
 | CSS3 | Styling |
-| JavaScript | Client-side Functionality |
 | Bootstrap | Responsive UI |
+| JavaScript | Client-side Functionality |
 | Visual Studio 2019 | ASP.NET Development |
-| XAMPP | PHP & MySQL Server |
+| XAMPP | Local Server |
 
 ---
 
-# 🗂 Project Structure
+# 🎥 Project Demo
 
-```
-Career Connect
-│
-├── Admin/
-├── Images/
-├── CSS/
-├── JS/
-├── Company/
-├── Database/
-├── Web.config
-├── Default.aspx
-├── Login.aspx
-├── Register.aspx
-├── careerconnect.sql
-└── README.md
-```
+Watch the complete demonstration of the **Career Connect - Web-Based Job Portal System**
 
----
+<p align="center">
+<a href="https://youtu.be/Z_ZISQP4isc">
+<img src="https://img.shields.io/badge/▶️%20Watch%20Demo%20Video-YouTube-red?style=for-the-badge&logo=youtube">
+</a>
+</p>
 
-# ⚙ Installation Guide
+### Demo Includes
 
-## 1️⃣ Clone Repository
-
-```bash
-git clone https://github.com/HACKERLAIBA/career-connect.git
-```
+- User Registration
+- User Login
+- Browse Jobs
+- Job Details
+- Apply Job
+- Employer Dashboard
+- Admin Dashboard
+- Manage Users
+- Manage Jobs
+- Manage Applications
 
 ---
 
-## 2️⃣ Database Setup
+# 📷 Project Screenshots
 
-- Open phpMyAdmin
-- Create Database
-
-```
-careerconnect
-```
-
-- Import
-
-```
-careerconnect.sql
-```
-
----
-
-## 3️⃣ Configure Database
-
-Update connection strings inside
-
-```
-Web.config
-```
-
-and PHP database configuration.
-
----
-
-## 4️⃣ Run Project
-
-### ASP.NET
-
-Open solution in Visual Studio
-
-Run
-
-```
-IIS Express
-```
-
-### PHP Admin
-
-Move Admin folder into
-
-```
-xampp/htdocs/
-```
-
-Start
-
-- Apache
-- MySQL
-
-Open
-
-```
-http://localhost/Admin
-```
-
----
-
-## 📷 Project Screenshots
-
-### 👤 User / Employee Module
+## 👤 User / Employee Module
 
 | Home Page | Job Seeker Login |
-|-----------|------------------|
+|------------|------------------|
 | <img src="screenshots/Home page.jpeg" width="450"> | <img src="screenshots/Job Seeker Login.jpeg" width="450"> |
 
 | Registration | Browse Categories |
@@ -192,7 +128,7 @@ http://localhost/Admin
 
 ---
 
-### 👨‍💼 Admin Module
+## 👨‍💼 Admin Module
 
 | Admin Dashboard | Manage Users |
 |-----------------|--------------|
@@ -200,38 +136,95 @@ http://localhost/Admin
 
 | Manage Jobs | Manage Applications |
 |-------------|---------------------|
-| <img src="screenshots/Manage Jobs.jpeg" width="450"> | <img src="screenshots/Manage Applications.jpeg" width="450"> |▶️ Demo Video
-
-(Add YouTube Link Here)
-
-Example
-
-https://youtu.be/XXXXXXXX
+| <img src="screenshots/Manage Jobs.jpeg" width="450"> | <img src="screenshots/Manage Applications.jpeg" width="450"> |
 
 ---
 
-# 📊 System Workflow
+# ⚙ Installation Guide
+
+## 1️⃣ Clone Repository
+
+```bash
+git clone https://github.com/HACKERLAIBA/career-connect.git
+```
+
+---
+
+## 2️⃣ Database Setup
+
+- Open phpMyAdmin
+- Create a database named:
 
 ```
-User Registration
-        │
-        ▼
-Login
-        │
-        ▼
-Search Jobs
-        │
-        ▼
-Apply Job
-        │
-        ▼
-Resume Upload
-        │
-        ▼
-Admin Review
-        │
-        ▼
-Application Status
+careerconnect
+```
+
+- Import:
+
+```
+careerconnect.sql
+```
+
+---
+
+## 3️⃣ Configure Database
+
+Update the database connection in:
+
+```
+Web.config
+```
+
+Also update the PHP database configuration file.
+
+---
+
+## 4️⃣ Run the Project
+
+### ASP.NET Module
+
+- Open the project in Visual Studio
+- Restore NuGet Packages
+- Run using IIS Express
+
+### PHP Admin Module
+
+Move the Admin folder into:
+
+```
+xampp/htdocs/
+```
+
+Start:
+
+- Apache
+- MySQL
+
+Open:
+
+```
+http://localhost/Admin
+```
+
+---
+
+# 🗂 Project Structure
+
+```
+Career Connect
+│
+├── Admin/
+├── CSS/
+├── JS/
+├── Images/
+├── screenshots/
+├── Company/
+├── Web.config
+├── Default.aspx
+├── Login.aspx
+├── Register.aspx
+├── careerconnect.sql
+└── README.md
 ```
 
 ---
@@ -239,23 +232,30 @@ Application Status
 # 🚀 Future Enhancements
 
 - AI Job Recommendation
-- Resume Parsing
+- Resume Parser
+- AI Chatbot
 - Email Notifications
 - Interview Scheduling
-- Online Interview Portal
+- Online Interview System
 - Mobile Application
-- AI Chatbot Support
+- Company Verification
+- Resume Ranking using AI
 
 ---
 
 # 👩‍💻 Developer
 
-**Laiba Khan**
+**Laiba Rafi**
 
-Final Year BS Computer Science Student
+BS Computer Science (Final Year)
+
+GitHub:
+https://github.com/HACKERLAIBA
 
 ---
 
 # ⭐ Support
 
-If you found this project useful, please give it a ⭐ on GitHub.
+If you found this project useful, please consider giving it a ⭐ on GitHub.
+
+Thank you for visiting this repository!
