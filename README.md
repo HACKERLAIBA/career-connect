@@ -17,6 +17,7 @@ Career Connect is a web-based recruitment platform developed as a Final Year Pro
 The project consists of two modules:
 
 - 👤 User Portal (ASP.NET Web Forms)
+- 🏢 Employer Dashboard
 - 👨‍💼 Admin Dashboard (PHP)
 
 The system enables users to register, search jobs, upload resumes, and apply for jobs, while administrators manage companies, users, jobs, applications, and categories.
